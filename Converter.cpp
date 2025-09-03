@@ -31,6 +31,9 @@ float solestoeur = 0.24;
 
 eur = (pesostoeur * pesos) + (realistoeur * realis) + (solestoeur * soles);
 
-cout << "EUR = € " << eur;
+cout << "EUR = € " << eur << endl;
+
+float eurtousd = 1.17;
+cout << "Dollars = $ " << eur*eurtousd;
 
 }
